@@ -147,7 +147,7 @@ no shutdown
 
 ## 7. RIP Dynamic Routing Configuration
 
- ###🟢 Router0 – RIP Configuration
+🟢 Router0 – RIP Configuration
 *Networks connected to R0:*
 - 10.0.0.0/11 
 - 10.32.0.0/11 
@@ -160,7 +160,7 @@ network 10.0.0.0
 network 10.32.0.0
 network 10.192.0.0
 
-### 🟢 Router1 – RIP Configuration
+🟢 Router1 – RIP Configuration
 *Networks connected:*
 - 10.32.0.0/11 (R0)
 - 10.64.0.0/11 (R2)
@@ -172,7 +172,7 @@ no auto-summary
 network 10.32.0.0
 network 10.64.0.0
 
-### 🟢 Router2 – RIP Configuration
+🟢 Router2 – RIP Configuration
 *Networks connected:*
 - 10.64.0.0/11 (R1)
 - 10.96.0.0/11 (LAN2)
@@ -186,7 +186,7 @@ network 10.64.0.0
 network 10.96.0.0
 network 10.128.0.0
 
-### 🟢 Router3 – RIP Configuration
+🟢 Router3 – RIP Configuration
 *Networks connected:*
 - 10.128.0.0/11 (R2)
 - 10.160.0.0/11 (R4)
@@ -199,7 +199,7 @@ network 10.128.0.0
 network 10.160.0.0
 
 
-### 🟢 Router4 – RIP Configuration
+🟢 Router4 – RIP Configuration
 *Networks connected:*
 - 10.192.0.0/11 (R0)
 - 10.160.0.0/11 (R3)
@@ -212,7 +212,7 @@ network 10.160.0.0
 network 10.192.0.0
 
 
-## 8. DHCP Configuration
+### 8. DHCP Configuration
 We configure DHCP on routers connected to LANs.
 
 ### DHCP on Router0 (LAN1)
