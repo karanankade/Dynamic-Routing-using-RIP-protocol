@@ -74,7 +74,6 @@ We subnetted `10.0.0.0/8` into 8 subnets (`/11`).
 ```text
 enable
 configure terminal
-no ip domain-lookup
 ```
 
 ## 6. Router Interface Configuration
