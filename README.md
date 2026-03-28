@@ -147,7 +147,7 @@ no shutdown
 
 ## 7. RIP Dynamic Routing Configuration
 
-### 🟢 Router0 – RIP Configuration
+ ###🟢 Router0 – RIP Configuration
 *Networks connected to R0:*
 - 10.0.0.0/11 
 - 10.32.0.0/11 
@@ -159,7 +159,6 @@ version 2
 network 10.0.0.0
 network 10.32.0.0
 network 10.192.0.0
-
 
 ### 🟢 Router1 – RIP Configuration
 *Networks connected:*
